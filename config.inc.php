@@ -35,7 +35,7 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'interchange.proxy.rlwy.net',
+  'host' => 'interchange.proxy.rlwy.net:30280',
   'user' => 'root',
   'password' => 'DUnFTPDMWkHOUgmErxAuETrmSJbpIvIp',
   'charset' => 'utf8mb4',
